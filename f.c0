@@ -1,0 +1,58 @@
+int pow(int b, int e) 
+//@requires e >= 0;
+{
+  if (e == 0) {
+    return 1;
+  } else {
+    return b * pow(b,e-1);
+  }
+}
+
+int f1(int m, int n) {
+	if (m == 0) {
+		return n;
+	}
+
+	if (n == 1) {
+		return pow(2,m);
+	}
+
+	else {
+		return f1(m - 1, f1(m - 1, n + 1));
+	}
+}
+
+int f2(int m, int n) {
+	if (n == 0) {
+		return 1;
+	}
+
+	if (m == 0) {
+		return 1;
+	}
+
+	if (m == 1) {
+		return 2*n;
+	}
+
+	else {
+		return f2(m - 1, f2(m, n - 1));
+	}
+}
+
+int[] printvalues() {
+
+	int[] X = alloc_array(int, 32);
+
+	int m;
+	int n;
+
+	for (m = 0; m <= 3; m ++) {
+		for (n = 0; n <= 3; n ++) {
+			X[m*4+n] = f1(m,n);
+			X[m*4+n+16] = f2(m,n);
+		}		
+	}
+
+	return X;
+}

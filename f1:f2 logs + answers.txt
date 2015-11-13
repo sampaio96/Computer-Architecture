@@ -1,0 +1,166 @@
+ Enter m:0
+
+ Enter n:0
+
+ f1(m,n): 0
+ Enter m:0
+
+ Enter n:1
+
+ f1(m,n): 1
+ Enter m:0
+
+ Enter n:2
+
+ f1(m,n): 2
+ Enter m:0
+
+ Enter n:3
+
+ f1(m,n): 3
+ Enter m:1
+
+ Enter n:0
+
+ f1(m,n): 1
+ Enter m:1
+
+ Enter n:1
+
+ f1(m,n): 2
+ Enter m:1
+
+ Enter n:2
+
+ f1(m,n): 3
+ Enter m:1
+
+ Enter n:3
+
+ f1(m,n): 4
+ Enter m:2
+
+ Enter n:0
+
+ f1(m,n): 3
+ Enter m:2
+
+ Enter n:1
+
+ f1(m,n): 4
+ Enter m:2
+
+ Enter n:2
+
+ f1(m,n): 5
+ Enter m:2
+
+ Enter n:3
+
+ f1(m,n): 6
+ Enter m:3
+
+ Enter n:0
+
+ f1(m,n): 7
+ Enter m:3
+
+ Enter n:1
+
+ f1(m,n): 8
+ Enter m:3
+
+ Enter n:2
+
+ f1(m,n): 9
+ Enter m:3
+
+ Enter n:3
+
+ f1(m,n): 10 -------> largest value
+
+#########################
+
+ Enter m:0
+
+ Enter n:0
+
+ f2(m,n): 1
+ Enter m:0
+
+ Enter n:1
+
+ f2(m,n): 1
+ Enter m:0
+
+ Enter n:2
+
+ f2(m,n): 1
+ Enter m:0
+
+ Enter n:3
+
+ f2(m,n): 1
+ Enter m:1
+
+ Enter n:0
+
+ f2(m,n): 1
+ Enter m:1
+
+ Enter n:1
+
+ f2(m,n): 2
+ Enter m:1
+
+ Enter n:2
+
+ f2(m,n): 4
+ Enter m:1
+
+ Enter n:3
+
+ f2(m,n): 6
+ Enter m:2
+
+ Enter n:0
+
+ f2(m,n): 1
+ Enter m:2
+
+ Enter n:1
+
+ f2(m,n): 2
+ Enter m:2
+
+ Enter n:2
+
+ f2(m,n): 4
+ Enter m:2
+
+ Enter n:3
+
+ f2(m,n): 8
+ Enter m:3
+
+ Enter n:0
+
+ f2(m,n): 1
+ Enter m:3
+
+ Enter n:1
+
+ f2(m,n): 2
+ Enter m:3
+
+ Enter n:2
+
+ f2(m,n): 4
+ Enter m:3
+
+ Enter n:3
+
+ f2(m,n): 16 -------> largest value
+
+
+ I did not find the biggest value of n for which f(n,n) can be represented as a 32-bit integer because each calculation (both f1 and f2) took a lot of time for my computer.
